@@ -19,8 +19,7 @@
 #
 # Script to update/add TXT SPF records for a domain hosted at GoDaddy.
 #
-# Usage: ./despf.sh | ./simplify.sh | mkblocks.sh | \
-#          | ./godaddy.sh <domain>
+# Usage: ./despf.sh | ./simplify.sh | ./mkblocks.sh | ./godaddy.sh <domain>
 # E.g.: ... | ./godaddy.sh spf-tools.eu.org
 
 test -n "$DEBUG" && set -x
